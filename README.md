@@ -17,7 +17,7 @@ yarn install
 yarn start
 ```
 
-5. Abre en tu navegador `http://localhost:3000`
+5. Abre en tu navegador [http://localhost:3000](http://localhost:3000)
 
 ## Desarrollo del proyecto integrador
 
