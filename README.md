@@ -17,6 +17,8 @@ yarn install
 yarn start
 ```
 
+5. Abre en tu navegador `http://localhost:3000`
+
 ## Desarrollo del proyecto integrador
 
 Utilizando lo que has aprendido acerca de componentes functionales de React y hooks (useState, useEffect).
