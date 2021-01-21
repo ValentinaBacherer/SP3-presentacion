@@ -23,6 +23,9 @@ const App = () => {
           <Route path="/bookings" exact>
             <BookingListPage />
           </Route>
+          <Route path="*">
+            <div>Not Found</div>
+          </Route>
         </Switch>
       </Router>
     </div>
