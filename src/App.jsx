@@ -1,13 +1,8 @@
-import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import { LoginPage } from './components/LoginPage';
-import { CreateBookingPage } from './components/CreateBookingPage';
-import { BookingListPage } from './components/BookingListPage';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { LoginPage } from "./components/LoginPage.jsx";
+import { CreateBookingPage } from "./components/CreateBookingPage.jsx";
+import { BookingListPage } from "./components/BookingListPage.jsx";
 
 const App = () => {
   return (
@@ -30,6 +25,6 @@ const App = () => {
       </Router>
     </div>
   );
-}
+};
 
 export default App;
