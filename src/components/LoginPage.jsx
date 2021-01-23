@@ -2,6 +2,7 @@ import { Link, useHistory } from "react-router-dom";
 import { Icon } from "./Icon.jsx";
 import { Input } from "./Input.jsx";
 import { Menu } from "./Menu.jsx";
+
 export const LoginPage = () => {
   const history = useHistory();
 
