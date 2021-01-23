@@ -17,5 +17,11 @@ export const bookings= [
         status: 'Cancelled',
         date: '10/02/20',
         time: '8:00PM - 9:00PM'
+    },
+    { id:4,
+        name: 'Ignacio',
+        status: 'Approved',
+        date: '12/02/20',
+        time: '6:00PM - 7:00PM'
     }
 ] ;

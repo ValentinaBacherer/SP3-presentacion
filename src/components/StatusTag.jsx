@@ -2,7 +2,8 @@ import React from "react";
 
 export function StatusTag({ status }) {
   const [color, setColor] = React.useState("#71BB52");
-  React.useState(() => {
+
+  React.useEffect(() => {
     if (status === "Approved") {
       setColor("#71BB52");
     } else if (status === "Pending") {
