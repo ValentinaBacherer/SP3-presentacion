@@ -1,4 +1,3 @@
-import { Link, useHistory } from "react-router-dom";
 import React from "react";
 import { MentorBookingCard } from "./MentorBookingCard.jsx";
 import { Menu } from "./Menu.jsx";
@@ -7,10 +6,6 @@ import { bookings } from "./bookings";
 
 export const BookingListPage = () => {
   const [bookingsArray, setBookingsArray] = React.useState(bookings);
-  const history = useHistory();
-  const navigateToBookings = () => {
-    history.push("/create-booking");
-  };
 
   const removeBooking = (id) => {
     setBookingsArray((oldBookings) => {
@@ -37,7 +32,7 @@ export const BookingListPage = () => {
           );
         })}
       </main>
-      <Footer />
+      <Footer linkEndPoint1="/create-booking" linkEndPoint2="/" />
     </React.Fragment>
   );
 };

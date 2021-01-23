@@ -1,3 +1,4 @@
+import { Footer } from "./Footer.jsx";
 import React from "react";
 import { Menu } from "./Menu.jsx";
 import { MentorSelector } from "./MentorSelector.jsx";
@@ -14,6 +15,7 @@ export const CreateBookingPage = () => {
         <DatePicker pickerType="time" />
         <button>Request</button>
       </main>
+      <Footer linkEndPoint1="/bookings" linkEndPoint1="/" />
     </>
   );
 };

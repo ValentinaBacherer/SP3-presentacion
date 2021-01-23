@@ -7,7 +7,7 @@ export const LoginPage = () => {
   const history = useHistory();
 
   const navigateToBookings = () => {
-    history.push("/bookings");
+    history.push("/create-booking");
   };
 
   return (
@@ -21,11 +21,11 @@ export const LoginPage = () => {
         <button class="btn">Log in</button>
         <footer>
           <p>
-            <Link to="/bookings">Navigate using a link</Link>
+            <Link to="/bookings">Bookings</Link>
           </p>
           <p>
             <button class="xs-btn" onClick={navigateToBookings}>
-              Navigate using a button
+              Create a Booking
             </button>
           </p>
         </footer>
