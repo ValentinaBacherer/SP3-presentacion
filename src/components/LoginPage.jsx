@@ -9,8 +9,6 @@ export const LoginPage = () => {
     history.push("/bookings");
   };
 
-  // TODO: please implement me! 🥺
-
   return (
     <>
       <Menu showIcon="no" />
